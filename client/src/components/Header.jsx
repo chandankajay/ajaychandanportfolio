@@ -10,7 +10,7 @@ const Header = () => {
           Ajay Chandan
         </span>
       </Link>
-      <Button gradientDuoTone="purpleToBlue">Contact</Button>
+      {/* <Button gradientDuoTone="purpleToBlue">Contact</Button> */}
     </header>
   );
 };

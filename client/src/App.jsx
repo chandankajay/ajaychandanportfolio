@@ -28,7 +28,6 @@ export default function App() {
             <ProfilePhoto />
             <Menu />
           </div>
-          <Footer />
         </aside>
 
         {/* Main Content */}
@@ -54,6 +53,7 @@ export default function App() {
           </main>
         </div>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 }
