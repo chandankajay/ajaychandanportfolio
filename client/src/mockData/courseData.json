@@ -1,0 +1,44 @@
+{
+    "course": {
+      "title": "Thy Javascript",
+      "topics": [
+        {
+          "id": 1,
+          "title": "Introduction to JavaScript",
+          "description": "An introduction to the basics of JavaScript.",
+          "readTime": "10 mins",
+          "content": [
+            {
+              "subheading": "What is JavaScript?",
+              "text": "JavaScript is a versatile programming language used for web development.",
+              "codeSnippet": "console.log('Hello, JavaScript!');"
+            },
+            {
+              "subheading": "Variables and Data Types",
+              "text": "JavaScript supports various data types including strings, numbers, and booleans.",
+              "codeSnippet": "let name = 'John';\nlet age = 30;\nlet isDeveloper = true;"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Advanced JavaScript Concepts",
+          "description": "Explore advanced topics in JavaScript.",
+          "readTime": "15 mins",
+          "content": [
+            {
+              "subheading": "Closures",
+              "text": "A closure is a function that retains access to its outer scope even after the outer function has returned.",
+              "codeSnippet": "function outerFunction() {\n  let outerVariable = 'I am outside!';\n  function innerFunction() {\n    console.log(outerVariable);\n  }\n  return innerFunction;\n}\nconst myClosure = outerFunction();\nmyClosure(); // 'I am outside!'"
+            },
+            {
+              "subheading": "Promises and Async/Await",
+              "text": "JavaScript promises represent the eventual completion (or failure) of an asynchronous operation.",
+              "codeSnippet": "function fetchData() {\n  return new Promise((resolve, reject) => {\n    setTimeout(() => {\n      resolve('Data fetched');\n    }, 2000);\n  });\n}\n\nasync function getData() {\n  const data = await fetchData();\n  console.log(data);\n}\ngetData(); // 'Data fetched'"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

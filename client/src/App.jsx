@@ -16,6 +16,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Search from './pages/Search';
 import ProfilePhoto from './components/ProfilePhoto';
 import Menu from './components/Menu';
+import ThyLearning from './pages/ThyLearning';
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
           <main className="flex-grow p-4 overflow-y-auto">
             <Routes>
               <Route path='/' element={<Home />} />
+              <Route path='/thylearning' element={<ThyLearning />} />
               <Route path='/about' element={<About />} />
               <Route path='/sign-in' element={<SignIn />} />
               <Route path='/sign-up' element={<SignUp />} />
