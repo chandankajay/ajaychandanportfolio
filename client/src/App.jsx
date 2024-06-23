@@ -32,7 +32,7 @@ export default function App() {
 
         {/* Main Content */}
         <div className="w-4/5 flex flex-col">
-          <Header />
+          {/* <Header /> */}
           <main className="flex-grow p-4 overflow-y-auto">
             <Routes>
               <Route path='/' element={<Home />} />
